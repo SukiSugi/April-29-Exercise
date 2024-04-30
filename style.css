@@ -2,6 +2,12 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1, h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #color-background {
   margin: auto;
   width: 50vh;
@@ -41,8 +47,19 @@
   margin-top: 1rem;
 }
 
+#dice-result-text{
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 #result-num{
   font-size: 125%;
+}
+
+#result-text{
+  font-weight: 500;
 }
 
 #dice-button {
